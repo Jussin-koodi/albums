@@ -110,6 +110,7 @@ async showPic(){
           
             myImage = new Image();
             myImage.src = manyItems[i].mediaItem.baseUrl;
+            myImage.crossOrigin = "anonymous";
             this.kuvaTaulu.push(myImage);  
            
             if (i==0) {
