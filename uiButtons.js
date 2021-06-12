@@ -24,7 +24,7 @@ create the buttons as png image
 
         this.myStage.enableMouseOver();
         this.myStage.enableMouseOut;
-
+console.log("ladataan buttono");
         var button = new Image();
         button.src = 'https://ghcdn.rawgit.org/Jussin-koodi/albums/button.png';
 
