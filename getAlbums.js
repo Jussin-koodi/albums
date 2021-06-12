@@ -8,6 +8,7 @@ let albums = [];
 Get the shared albums id:s and name
 */
 async function listAlbums(){
+    console.log("list albums");
     try {
     
       do {
