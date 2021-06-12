@@ -26,7 +26,7 @@ create the buttons as png image
         this.myStage.enableMouseOut;
 console.log("ladataan buttono");
         var button = new Image();
-        button.src = 'https://ghcdn.rawgit.org/Jussin-koodi/albums/v1.0/button.png';
+        button.src = 'https://ghcdn.rawgit.org/Jussin-koodi/albums/v1.1/button.png';
 
         button.addEventListener("load", this.buttonLoad.bind(this));
    
