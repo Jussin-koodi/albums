@@ -19,31 +19,30 @@
 </head>
 <body>
   <div id = "kuvat"> <br></div>
-  Ksage example.ere you will find three different canvas with their ownd id, for every canvas we have chosen 
+  Very simple usage example.
+    Here you will find three different canvas with their ownd id, for every canvas we have chosen 
     threee different albums. Each albums is presented in their own canvas, as depicted in places object below.
 <br>
-<canvas id = "pic1"> Selaimesi ei tue HTML5 canvas tagia. </canvas>
+<canvas id = "pic1"> Your browser don't support canvas</canvas>
 <br>
   text as separatot
 
   <br>
-  <canvas id = "pic2" style ="border:2px solid blue"> <br>Selaimesi ei tue HTML5 canvas tagia.</canvas> 
+  <canvas id = "pic2" style ="border:2px solid blue"> <br>Your browser don't support canvas</canvas> 
     <br>
     text as separator
     <br>
-  <canvas id = "pic3" style ="border:2px solid green"> Selaimesi ei tue HTML5 canvas tagia.</canvas> 
+  <canvas id = "pic3" style ="border:2px solid green"> Your browser don't support canvas</canvas> 
     <br>
     last one
 
      <script>
        var places = [ 
-            {"posit":"pic1", "name":"lak-maisema"},
-           {"posit":"pic2", "name":"china_songpan"},
-           
-           {"posit":"pic3", "name":"hue_haudat"} 
+           {"posit":"pic1", "name":"YOUR ALBUM NAME1"},
+           {"posit":"pic2", "name":"YOUR ALBUM NAME2"},
+           {"posit":"pic3", "name":"YOUR ALBUM NAME3"} 
         ];
        window.addEventListener('load',(event) => {authenticate().then(loadClient).then(listAlbums)});
-      //showAnimate();
     </script>
 
     End of example
